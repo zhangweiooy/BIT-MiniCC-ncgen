@@ -36,5 +36,6 @@ BIT Mini C Compiler is a C compiler framework in Java for teaching.
 
 
 ### 基于BIT-MiniCC实现简单的目标代码生成功能
+
 实现了nc_tests中的1和2两个测试用例，只实现了这两个是因为只有这两个没有用到数组( *^-^)ρ(*╯^╰)
 =======
