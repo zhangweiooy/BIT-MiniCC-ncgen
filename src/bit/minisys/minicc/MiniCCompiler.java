@@ -1,10 +1,6 @@
 package bit.minisys.minicc;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.io.StringWriter;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 
@@ -15,12 +11,8 @@ import javax.xml.parsers.ParserConfigurationException;
 import org.python.util.PythonInterpreter;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.NameList;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
-import org.xml.sax.*;
-
-import bit.minisys.minicc.icgen.internal.IRBuilder;
 import bit.minisys.minicc.icgen.internal.MiniCCICGen;
 import bit.minisys.minicc.internal.util.MiniCCUtil;
 import bit.minisys.minicc.ncgen.internal.MiniCCCodeGen;

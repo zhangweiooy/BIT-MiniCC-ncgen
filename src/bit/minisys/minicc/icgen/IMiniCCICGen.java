@@ -1,7 +1,5 @@
 package bit.minisys.minicc.icgen;
 
-import java.io.IOException;
-
 public interface IMiniCCICGen {
 	/*
 	 * @return String the path of the output file

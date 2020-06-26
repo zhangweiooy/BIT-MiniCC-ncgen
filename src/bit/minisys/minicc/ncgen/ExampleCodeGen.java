@@ -3,15 +3,10 @@ package bit.minisys.minicc.ncgen;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Map;
-
 import bit.minisys.minicc.MiniCCCfg;
-import bit.minisys.minicc.icgen.internal.IRBuilder;
-import bit.minisys.minicc.icgen.internal.MiniCCICGen;
 import bit.minisys.minicc.internal.util.MiniCCUtil;
 import bit.minisys.minicc.ncgen.IMiniCCCodeGen;
 import bit.minisys.minicc.parser.ast.ASTCompilationUnit;
-import bit.minisys.minicc.parser.ast.ASTNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class ExampleCodeGen implements IMiniCCCodeGen{
